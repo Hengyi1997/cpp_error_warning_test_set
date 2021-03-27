@@ -1,0 +1,3 @@
+add_library(AssignmentAddressToInteger AssignmentAddressToInteger.c)
+add_library(mismatchsize mismatchsize.cpp)
+add_library(syntaxError syntaxError.c)

@@ -1,0 +1,7 @@
+add_executable(arrayIndexOutOfBounds arrayIndexOutOfBounds.c)
+add_executable(autoVariables autoVariables.c)
+add_executable(bufferAccessOutOfBounds bufferAccessOutOfBounds.c)
+add_executable(erase erase.cpp)
+add_executable(memleak memleak.c)
+add_executable(outOfBounds outOfBounds.c)
+add_executable(resourceLeak resourceLeak.c)

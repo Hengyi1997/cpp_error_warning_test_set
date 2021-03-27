@@ -1,32 +1,4 @@
 /usr/local/Cellar/cmake/3.19.4/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/10.2.0_3/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0_3/bin/g++-10 -G "CodeBlocks - Unix Makefiles" /Users/hengyi/dev/cpp_error_warning_test_set
--- The C compiler identification is unknown
--- The CXX compiler identification is unknown
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: /usr/local/Cellar/gcc/10.2.0_3/bin/gcc-10
--- Check for working C compiler: /usr/local/Cellar/gcc/10.2.0_3/bin/gcc-10 - broken
-CMake Error at /usr/local/Cellar/cmake/3.19.4/share/cmake/Modules/CMakeTestCCompiler.cmake:66 (message):
-  The C compiler
-
-    "/usr/local/Cellar/gcc/10.2.0_3/bin/gcc-10"
-
-  is not able to compile a simple test program.
-
-  It fails with the following output:
-
-    Change Dir: /Users/hengyi/dev/cpp_error_warning_test_set/cmake-build-debug/CMakeFiles/CMakeTmp
-    
-    Run Build Command(s):/usr/bin/make cmTC_cb906/fast && xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-    
-    
-
-  
-
-  CMake will not be able to correctly generate this project.
-Call Stack (most recent call first):
-  CMakeLists.txt:3 (project)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/hengyi/dev/cpp_error_warning_test_set/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/hengyi/dev/cpp_error_warning_test_set/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hengyi/dev/cpp_error_warning_test_set/cmake-build-debug
