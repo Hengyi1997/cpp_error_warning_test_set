@@ -1,4 +1,0 @@
-/usr/local/Cellar/cmake/3.19.4/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/10.2.0_3/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0_3/bin/g++-10 -G "CodeBlocks - Unix Makefiles" /Users/hengyi/dev/cpp_error_warning_test_set
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/hengyi/dev/cpp_error_warning_test_set/cmake-build-debug
